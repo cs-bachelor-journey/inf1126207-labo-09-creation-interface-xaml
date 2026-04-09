@@ -1,0 +1,67 @@
+﻿<Window x:Class="Ex05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex05"
+        mc:Ignorable="d"
+        Title="Exercice 05 : Création d’une interface avec plusieurs onglets " Height="450" Width="800">
+
+    <TabControl Margin="10">
+
+        <!-- Onglet 1 : Accueil -->
+        <TabItem Header="Accueil">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Label Content="Bienvenue !" FontSize="20" FontWeight="Bold"
+                       HorizontalAlignment="Center"/>
+                <Label Content="Naviguez entre les onglets pour explorer l'interface."
+                       HorizontalAlignment="Center" Margin="0,10"/>
+            </StackPanel>
+        </TabItem>
+
+        <!-- Onglet 2 : Formulaire (réutilisé de Ex03) -->
+        <TabItem Header="Formulaire">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="0" Content="Prénom"/>
+                <TextBox Grid.Row="1" Margin="0,0,0,8"/>
+
+                <Label Grid.Row="2" Content="Nom"/>
+                <TextBox Grid.Row="3" Margin="0,0,0,8"/>
+
+                <Label Grid.Row="4" Content="Email"/>
+                <TextBox Grid.Row="5" Margin="0,0,0,8"/>
+
+                <Label Grid.Row="6" Content="Mot de passe"/>
+                <PasswordBox Grid.Row="7" Margin="0,0,0,12"/>
+
+                <Button Grid.Row="8" Content="S'inscrire"
+                        Padding="15,8" HorizontalAlignment="Center"/>
+            </Grid>
+        </TabItem>
+
+        <!-- Onglet 3 : Paramètres -->
+        <TabItem Header="Paramètres">
+            <StackPanel Margin="20" VerticalAlignment="Center">
+                <Label Content="Langue de l'application :" FontWeight="Bold"/>
+                <ComboBox Margin="0,5,0,0">
+                    <ComboBoxItem Content="Français" IsSelected="True"/>
+                    <ComboBoxItem Content="English"/>
+                    <ComboBoxItem Content="Español"/>
+                </ComboBox>
+            </StackPanel>
+        </TabItem>
+        
+    </TabControl>
+</Window>
