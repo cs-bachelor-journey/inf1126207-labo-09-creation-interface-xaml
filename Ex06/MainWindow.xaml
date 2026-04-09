@@ -1,0 +1,40 @@
+﻿<Window x:Class="Ex06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ex06"
+        mc:Ignorable="d"
+        Title="Exercice 06 — Menu de navigation" Height="450" Width="800">
+    <DockPanel>
+
+        <!-- Menu fixé en haut -->
+        <Menu DockPanel.Dock="Top">
+            
+            <MenuItem Header="Fichier">
+                <MenuItem Header="Ouvrir"/>
+                <Separator/>
+                <MenuItem Header="Quitter"/>
+            </MenuItem>
+            
+            <MenuItem Header="Édition">
+                <MenuItem Header="Copier"/>
+                <MenuItem Header="Coller"/>
+            </MenuItem>
+
+            <MenuItem Header="Aide">
+                <MenuItem Header="À propos"/>
+            </MenuItem>
+            
+            <MenuItem Header="Options"/>
+        </Menu>
+
+        <!-- Zone centrale -->
+        <Border Background="#F5F5F5" Padding="20">
+            <TextBlock Text="Zone de contenu principale"
+                       FontSize="14" Foreground="Gray"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+        </Border>
+    </DockPanel>
+</Window>
