@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Workstation\\_projects-v2\\uqar_csharp_labo\\inf1126207-labo-09-creation-interface-xaml\\Ex02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CFCEA3-BDB0-436D-9869-7BE9B7243A8E}|Ex02.csproj|e:\\workstation\\_projects-v2\\uqar_csharp_labo\\inf1126207-labo-09-creation-interface-xaml\\ex02\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A3CFCEA3-BDB0-436D-9869-7BE9B7243A8E}|Ex02.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CFCEA3-BDB0-436D-9869-7BE9B7243A8E}|Ex02.csproj|e:\\workstation\\_projects-v2\\uqar_csharp_labo\\inf1126207-labo-09-creation-interface-xaml\\ex02\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3CFCEA3-BDB0-436D-9869-7BE9B7243A8E}|Ex02.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Workstation\\_projects-v2\\uqar_csharp_labo\\inf1126207-labo-09-creation-interface-xaml\\Ex02\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "E:\\Workstation\\_projects-v2\\uqar_csharp_labo\\inf1126207-labo-09-creation-interface-xaml\\Ex02\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-09T18:15:14.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Workstation\\_projects-v2\\uqar_csharp_labo\\inf1126207-labo-09-creation-interface-xaml\\Ex02\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "E:\\Workstation\\_projects-v2\\uqar_csharp_labo\\inf1126207-labo-09-creation-interface-xaml\\Ex02\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T18:15:14.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
